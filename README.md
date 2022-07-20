@@ -86,4 +86,4 @@ python run_net.py \
 ```
 
 ## Licence
-We release this repository under Apache License 2.0. This repository enables users to download a pre-trained MaCLR representation and fine-tune it on downstream tasks, like action recognition on UCF101. This repository does not include training code for MaCLR, as that is currently patent pending. 
+This repository is released under Apache License 2.0. It enables users to download a pre-trained MaCLR representation and fine-tune it on downstream tasks, like action recognition on UCF101. It does not include training code for MaCLR, as MaCLR is currently patent pending. 
