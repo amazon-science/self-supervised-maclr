@@ -1,9 +1,10 @@
 # MaCLR
 
-![](readme/modist.gif)
-
 > [**MaCLR: Motion-aware Contrastive Learning of Representations for Videos**](https://arxiv.org/abs/2106.09703),            
 > Fanyi Xiao, Joseph Tighe, Davide Modolo   
+
+
+![](readme/modist.gif)
 
 
     @inproceedings{xiao2022maclr,
@@ -68,10 +69,10 @@ where `.csv` file are with rows as `video_path class_idx`.
 
 ## Model 
 
-You can download a pre-trained MaCLR model here: model. 
+You can download a pre-trained SLOW_32x8_R50 MaCLR model here: [MaCLR model](https://aws-cv-sci-motion-public.s3.us-west-2.amazonaws.com/MaCLR/model_zoos/maclr.pyth)
 
 
-## Transfer pretrained MaCLR model to UCF101
+## Transfer pretrained MaCLR model to UCF101 
 
 End-to-end finetuning:
 ```
@@ -87,3 +88,5 @@ python run_net.py \
 --output_dir ../../data/output/UCF101/SLOW_32x8_R50_CLSONLY_Pretrain_MaCLR
 ```
 
+## Licence
+We release this repository under Apache License 2.0. This repository enables users to download a pre-trained MaCLR representation and fine-tune it on downstream tasks, like action recognition on UCF101. This repository does not include training code for MaCLR, as that is currently patent pending. 
