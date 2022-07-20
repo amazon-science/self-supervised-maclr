@@ -19,9 +19,6 @@
 We present MaCLR as a novel method to explicitly perform cross-modal self-supervised video representations learning from visual and motion modalities.Compared to previous video representation learning methods that mostly focus on learning motion cues implicitly from RGB inputs, MaCLR enriches standard contrastive learning objectives for RGB video clips with a cross-modal learning objective between a Motion pathway and a Visual pathway. We show that the representation learned with our MaCLR method focuses more on foreground motion regions and thus generalizes better to downstream tasks. To demonstrate this, we evaluate MaCLR on five datasets for both action recognition and action detection, and demonstrate state-of-the-art self-supervised performance on all datasets. 
 Furthermore, we show that MaCLR representation can be as effective as representations learned with full supervision on UCF101 and HMDB51 action recognition, while even outperforming the supervised representation for action recognition on VidSitu and SSv2, and action detection on AVA.  
 
-
-Note: Due to legal reasons, we can only release the pretrained model and the finetuning code. 
-
 ## Installation
 
 - Create the python environment: `virtualenv -p python3 maclr` and activate the environment with `source /PATH/TO/ENV/maclr/bin/activate`
@@ -67,7 +64,7 @@ maclr
 where `.csv` file are with rows as `video_path class_idx`. 
 
 
-## Model 
+## Download pretrained MaCLR model 
 
 You can download a pre-trained SLOW_32x8_R50 MaCLR model here: [MaCLR model](https://aws-cv-sci-motion-public.s3.us-west-2.amazonaws.com/MaCLR/model_zoos/maclr.pyth)
 
