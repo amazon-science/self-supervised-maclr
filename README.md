@@ -66,7 +66,7 @@ where `.csv` file are with rows as `video_path class_idx`.
 
 ## Download pretrained MaCLR model 
 
-You can download a pre-trained SLOW_32x8_R50 MaCLR model here: [MaCLR model](https://aws-cv-sci-motion-public.s3.us-west-2.amazonaws.com/MaCLR/model_zoos/maclr.pyth)
+You can download a pre-trained SLOW_R50 MaCLR model here: [MaCLR model](https://aws-cv-sci-motion-public.s3.us-west-2.amazonaws.com/MaCLR/model_zoos/maclr.pyth)
 
 
 ## Transfer pretrained MaCLR model to UCF101 
