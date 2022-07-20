@@ -8,7 +8,7 @@
 
 
     @inproceedings{xiao2022maclr,
-      title={SMaCLR: Motion-aware Contrastive Learning of Representations for Videos},
+      title={MaCLR: Motion-aware Contrastive Learning of Representations for Videos},
       author={Xiao, Fanyi and Tighe, Joseph and Modolo, Davide},
       booktitle={ECCV},
       year={2022}
